@@ -1,0 +1,59 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\rowen\MATLAB Drive\TestModels\testApp.prj" location="C:\Users\rowen\MATLAB Drive\TestModels" name="testApp" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>testApp</param.appname>
+    <param.intermediate>${PROJECT_ROOT}\testApp</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\testApp</param.files.only>
+    <param.output>${PROJECT_ROOT}\testApp</param.output>
+    <param.checkbox>true</param.checkbox>
+    <param.logdir>${PROJECT_ROOT}\testApp</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\testApp.mlapp</file>
+    </fileset.resources>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\PredictedVsActual.mat</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\testApp" name="testApp.ctf" optional="false">C:\Users\rowen\MATLAB Drive\TestModels\testApp\testApp.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
