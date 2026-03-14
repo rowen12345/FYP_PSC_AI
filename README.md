@@ -17,6 +17,7 @@ Interactive Prediction Tool
 Developed a MATLAB App Designer application that allows users to input perovskite solar cell properties and generate real-time IV curve predictions through the trained model.
 
 
+
 ## Example Prediction
 
 <p align="center">
