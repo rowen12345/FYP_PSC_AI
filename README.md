@@ -15,3 +15,11 @@ Performed extensive hyperparameter tuning (neurons, hidden layers, activation fu
 
 Interactive Prediction Tool
 Developed a MATLAB App Designer application that allows users to input perovskite solar cell properties and generate real-time IV curve predictions through the trained model.
+
+
+## Example Prediction
+
+<p align="center">
+  <img src=""C:\Users\rowen\OneDrive\Pictures\First 20 samples of predicted I-V curve.jfif"" width="600"><br>
+  <em>Predicted IV curve reconstructed using PCHIP interpolation.</em>
+</p>
