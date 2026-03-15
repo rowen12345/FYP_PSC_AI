@@ -24,3 +24,9 @@ Developed a MATLAB App Designer application that allows users to input perovskit
   <img src="first 20 samples.png" width="600"><br>
   <em>Predicted IV curve reconstructed using PCHIP interpolation.</em>
 </p>
+
+## Achieved over 90% accuracy for each point of the predicted curve
+<p align="center">
+  <img src="Screenshot 2026-03-15 234345.png"width="600"><br>
+  <em>Accuracy scores.</em>
+</p>
