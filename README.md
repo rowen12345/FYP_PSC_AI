@@ -21,6 +21,6 @@ Developed a MATLAB App Designer application that allows users to input perovskit
 ## Example Prediction
 
 <p align="center">
-  <img src="C:\Users\rowen\OneDrive\Pictures\Screenshots\first 20 samples.png" width="600"><br>
+  <img src="first 20 samples.png" width="600"><br>
   <em>Predicted IV curve reconstructed using PCHIP interpolation.</em>
 </p>
